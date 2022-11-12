@@ -585,7 +585,7 @@ nav {
 .footer__input {
   background-color: inherit;
   box-sizing: border-box;
-
+  padding: 15px 16px;
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -597,23 +597,16 @@ nav {
   border-radius: 4px;
 }
 .footer-btn-sent {
-  padding: 13px auto 13px 10px;
+  
 }
 
 .footer-btn {
-  gap: 10px;
   font-weight: 700;
-  font-size: 16px;
   line-height: 30px;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
   width: 200px;
   height: 50px;
-  left: 1185px;
-  top: 2784px;
   border: none;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -850,9 +843,8 @@ form {
 }
 
 .form__input {
-  width: 100%;
+  width: 448px;
   height: 40px;
-
   padding: 11px 12px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -933,11 +925,24 @@ form {
 .checkbox-label{
   
 }
+.modal-link{
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+
+color: #2196F3;
+}
 .icon {
   fill: #ffffff;
   border: 1px solid #000000;
   border-radius: 4px;
   margin-right: 7px;
+  width: 16px;
+  height: 15px;
 }
 .form__span{
   font-weight: 400;
@@ -947,7 +952,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .btn-form {
-  display: flex;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
